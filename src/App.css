@@ -1,1 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
 
+.page {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.pokedex {
+  margin: 0;
+  font-size: 2.5em;
+  color: #008080;
+}
+
+.info {
+  margin: 10px 0;
+}
+
+.idname {
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+} 
+
+input.idname:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+select {
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+option {
+  padding: 10px;
+  font-size: 1em;
+  background: #fff;
+  color: #333;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history h3 {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  cursor: pointer;
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.history li:hover {
+  background: #e0e0e0;
+}
+
+main {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.statistiques {
+  margin-top: 20px;
+}
+
+.statistiques h2 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.statistiques ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.statistiques li {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
